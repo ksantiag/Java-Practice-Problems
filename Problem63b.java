@@ -1,4 +1,4 @@
-public class problem63b
+public class Problem63b
 {
    int [] nums = {41,38,75,98,26,51,118,13};
    int [] a = new int[10]; 
