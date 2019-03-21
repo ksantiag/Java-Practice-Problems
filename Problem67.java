@@ -48,7 +48,7 @@ public class Problem67
          
        }while(g != n);
        
-       System.out.print("It took you "+count+" guesses! Culisipin cagadin");
+       System.out.print("It took you "+count+" guesses!");
       
    } 
 }
