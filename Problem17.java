@@ -21,18 +21,29 @@ public class Problem17
       
       int x = 0; 
       
-      while(cnt < 2)
+      boolean seeOne = false, seeTwo = false; 
+      
+      while(seeOne == false || seeTwo == false)
       {
          System.out.print("Enter an Int: "); 
          x = input.nextInt();
          
-         if( x == one || x == two)
+         
+         
+         
+         if( x == one)
          {
+            seeOne = true; 
+         }
+         if( x == two)
+         {
+            seeTwo = true; 
             cnt++; 
          }
+         
          count++; 
       }
-      System.out.println("you had to enter "+count+"ints");
+      System.out.println("you had to enter "+count+" ints ");
       System.out.print("before typing "+one+"and "+two+".");
 
    }
